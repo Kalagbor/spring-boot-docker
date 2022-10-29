@@ -1,10 +1,10 @@
 spring:
   data:
     mongodb:
-      host: ${MONGO_DB_HOSTNAME}
+      host: ${MYSQL_DATABASE}
       port: 27017
-      username: ${MONGO_DB_USERNAME}
-      password: ${MONGO_DB_PASSWORD}
+      username: ${MYSQL_USER}
+      password: ${MYSQL_ROOT_PASSWORD}
       database: users
       authentication-database: admin
 
